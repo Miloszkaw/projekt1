@@ -2,11 +2,12 @@
 
 body{
     font-family: "Lato", sans-serif;
-    font-size: 10px;
+
+    height: 300vh;
 }
 header{
     height: 100vh;
-    background: url('../assets/img/bg_header.webp') center/cover;
+    background: url('../assets/img/bg_header.webp') center/cover fixed;
     color: white;
     display: flex;
     justify-content: center;
@@ -14,5 +15,13 @@ header{
     h1{
         font-size: 3.8rem;
         font-weight: bold;
+        text-align: center;
+        line-height: 5rem;
+        @media screen and (min-width:800px){
+            font-size: 6rem;
+        }
+        @media screen and (min-width:1200px){
+            font-size: 8rem;
+        }
     }
 }
