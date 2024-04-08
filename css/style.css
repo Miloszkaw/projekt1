@@ -52,11 +52,6 @@ table {
   border-spacing: 0;
 }
 
-body {
-  font-family: "Lato", sans-serif;
-  height: 300vh;
-}
-
 header {
   height: 100vh;
   background: url("../assets/img/bg_header.webp") center/cover fixed;
@@ -80,6 +75,11 @@ header h1 {
   header h1 {
     font-size: 8rem;
   }
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  height: 300vh;
 }
 
 /*# sourceMappingURL=style.css.map */
