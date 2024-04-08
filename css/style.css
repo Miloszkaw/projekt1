@@ -65,6 +65,10 @@ header h1 {
   font-weight: bold;
   text-align: center;
   line-height: 5rem;
+  padding: 35px;
+  background-color: #7F140C;
+  border-radius: 20px;
+  z-index: 1;
 }
 @media screen and (min-width: 800px) {
   header h1 {
@@ -75,6 +79,17 @@ header h1 {
   header h1 {
     font-size: 8rem;
   }
+}
+header::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2078431373);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
 }
 
 body {
