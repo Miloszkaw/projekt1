@@ -121,6 +121,10 @@ header::after {
   box-sizing: border-box;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Lato", sans-serif;
   height: 300vh;
@@ -163,7 +167,7 @@ section {
 }
 section h2 {
   text-align: center;
-  margin: 30px 0;
+  padding: 70px 0;
   font-weight: bold;
   font-size: 3.8rem;
 }
