@@ -165,6 +165,9 @@ nav {
 section {
   min-height: 100vh;
 }
+section:nth-of-type(even) {
+  background-color: whitesmoke;
+}
 section h2 {
   text-align: center;
   padding: 70px 0;
@@ -260,10 +263,17 @@ input:focus, textarea:focus {
 }
 input[type=submit], textarea[type=submit] {
   margin-top: 30px;
+  width: 50%;
 }
 
 textarea {
   resize: none;
+}
+
+footer {
+  background-color: #C23B00;
+  color: white;
+  height: 40vh;
 }
 
 /*# sourceMappingURL=style.css.map */

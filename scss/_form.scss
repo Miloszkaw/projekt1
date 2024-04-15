@@ -19,7 +19,8 @@ input{
         border: 1px gray solid;
     }
     &[type="submit"]{
-        margin-top: 30px
+        margin-top: 30px;
+        width: 50%;
     }
 
 }
