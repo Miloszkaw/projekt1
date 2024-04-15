@@ -241,4 +241,29 @@ section p {
   }
 }
 
+input, textarea, label {
+  display: block;
+  font-family: inherit;
+  margin-bottom: 5px;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px lightgray solid;
+  outline: 0;
+}
+input:focus, textarea:focus {
+  border: 1px gray solid;
+}
+input[type=submit], textarea[type=submit] {
+  margin-top: 30px;
+}
+
+textarea {
+  resize: none;
+}
+
 /*# sourceMappingURL=style.css.map */
